@@ -10,7 +10,7 @@ const config = {
   port: dbConfig.port,
   user: dbConfig.username,
   password: dbConfig.password,
-  database: dbConfig.password
+  database: dbConfig.database
 };
 
 // Observe application's life cycle to disconnect the datasource when
